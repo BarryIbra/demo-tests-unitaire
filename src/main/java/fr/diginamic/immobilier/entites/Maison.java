@@ -23,7 +23,7 @@ public class Maison {
 		
 		if(nvPiece!=null)
 		{// On est obligé d'agrandir le tableau initial de 1 à chaque ajout
-		// d'une nouvelle pièce
+		// d'une nouvelle pièce (comment pour tester le hood)
 		
 		// On commence donc par créer un tableau temporaire appelé newTab
 		// qui a une taille égale à la tableau du tableau pieces+1

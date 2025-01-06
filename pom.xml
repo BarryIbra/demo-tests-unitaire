@@ -28,4 +28,22 @@
 			</plugin>
 		</plugins>
 	</build>
+	<build>
+    <plugins>
+        <plugin>
+            <groupId>org.jacoco</groupId>
+            <artifactId>jacoco-maven-plugin</artifactId>
+            <version>0.8.12</version>
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>prepare-agent</goal>  <!-- Ce goal ajoute un agent JaCoCo -->
+                        <goal>report</goal>         <!-- Ce goal génère un rapport -->
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+    </plugins>
+</build>
+
 </project>

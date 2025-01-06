@@ -35,7 +35,7 @@ public class Maison {
 		}
 		
 		// On place en dernière position dans le nouveau tableau la nouvelle
-		// pièce
+		// pièce de la maison
 		newTab[newTab.length-1]=nvPiece;
 		
 		// Enfin on affecte newTab à pieces

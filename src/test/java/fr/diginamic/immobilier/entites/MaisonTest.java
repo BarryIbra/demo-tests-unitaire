@@ -45,6 +45,7 @@ public class MaisonTest {
         assertEquals(40, maison.superficieEtage(0)); 
         assertEquals(10, maison.superficieEtage(1)); 
         assertEquals(0, maison.superficieEtage(2));
+        assertEquals(0,maison.superficieEtage(-1));
 
     }
 

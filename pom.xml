@@ -26,11 +26,7 @@
 					<release>17</release>
 				</configuration>
 			</plugin>
-		</plugins>
-	</build>
-	<build>
-    <plugins>
-        <plugin>
+			 <plugin>
             <groupId>org.jacoco</groupId>
             <artifactId>jacoco-maven-plugin</artifactId>
             <version>0.8.12</version>
@@ -43,7 +39,7 @@
                 </execution>
             </executions>
         </plugin>
-    </plugins>
-</build>
-
+		</plugins>
+	</build>
+	
 </project>
